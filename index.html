@@ -46,6 +46,14 @@
 .qrbox p{color:#cfe3ee;margin:0 auto 14px;max-width:520px}
 .qrbox img{width:210px;height:210px;background:#fff;border-radius:10px;padding:8px}
 .qrbox .cta{margin-top:16px}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:8px 0 4px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.step .num{display:inline-block;background:var(--teal);color:#04222e;font-weight:800;border-radius:999px;padding:2px 10px;font-size:13px;margin-bottom:8px}
+.step h4{margin:4px 0 6px;font-size:19px}
+.step .price{font-size:26px;font-weight:800}
+.step p{color:var(--mut);margin:6px 0 12px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -56,8 +64,8 @@
 
 <div class="hero">
   <h2>We do the work. You see the proof.</h2>
-  <p>Job applications done for you, resumes that get past the filters, and honest website checkups for local shops. Real prices below — no contracts, no pressure.</p>
-  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeOAdM6MZhMHNXhHZQjOqCLU1k2JBhc8jB7Tk7GGrwKldN_pQ/viewform">Start the intake form</a>
+  <p>Start with a <strong>free</strong> resume. See us work for <strong>$10</strong>. Then decide. Job applications done for you, with screenshot proof of every one — no contracts, no pressure.</p>
+  <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeOAdM6MZhMHNXhHZQjOqCLU1k2JBhc8jB7Tk7GGrwKldN_pQ/viewform">Get my free resume</a>
   <a class="cta" href="mailto:patmarez4@gmail.com?subject=I%20want%20to%20get%20started">Email us</a>
   <a class="cta ghost" href="tel:+14803896993">Call (480) 389-6993</a>
 </div>
@@ -70,15 +78,41 @@
 
 
   <div class="qrbox">
-    <div class="big">Start here — scan the code</div>
-    <p>Point your phone camera at the code and fill out the short form. It takes about 2 minutes — tell us the job you want and your pay floor, and we take it from there.</p>
+    <div class="big">Step 1 is free — scan the code</div>
+    <p>Point your phone camera at the code and fill out the short form — about 2 minutes. We build your ATS resume from your answers and send it back free. No card, no catch.</p>
     <img src="data:image/png;base64,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iAoAGVEBICMqAGREBYCMqACQERUAMq/ruj59Df+3yV2mp/rmXa/quyq2pGac+HxO/H/MSQWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYCMqACQERUAMtn214l7XCfuO1Umr2dyj+vE7a/KiX9f297XiX8X2zipAJARFQAyogJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkAm2/6qVHtB23aHTtz5OXH/6o5t733ycyqe4a/b9v9YxUkFgIyoAJARFQAyogJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADLvyS/btmPz1G2rE23bZdr226iuZ/I5b/t7n1Td17aNtTucVADIiAoAGVEBICMqAGREBYCMqACQERUAMqICQEZUAMiICgAZUQEg87qua+zLJveUTtwU2rbvtG13aNse1x0nPsOnvosTnfj/mJMKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGSy7a9tW1J3bNvImmSH7WeTvzFmfPPf8uR9OakAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYCMqACQERUAMqICQGZ0+6vy1M2ub940q65n2zOsbNvN22bbb3XStv/HnFQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBIJNtf21z4i5T5cQdrcq2az5xJ+rEa75jcu9u2/8/k/fupAJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAmfenL+DP2LbvdMfkHld1X9uez6Rv3m7atrW17bdROXFn7A4nFQAyogJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADIvK7rSj5o21bSHZMbYiduf23bFJrcIqs89RlO/g7v2PacKye+LycVADKiAkBGVADIiAoAGVEBICMqAGREBYCMqACQERUAMqICQEZUAMi8qw86cZfpxGuetG276cSttm27cCc+w8lrrkxukW3bPXNSASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYBMtv21bX9m0rYNsWpzaVJ1Pdu2rb7Ziftgk387k58z+Vt1UgEgIyoAZEQFgIyoAJARFQAyogJARlQAyIgKABlRASAjKgBkRAWATLb9dce2vak7tm1JnbiDtG1Padv1VLbtp237nDsm39dTf4dOKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYCMqACQGd3+uuObd34qT72vSZO7THds24natol3x4m/1RP/33BSASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYDMuu2vp6o2jqoNqBM/Z1K1g1Q9n8nrqUxuoz11h+3Evy8nFQAyogJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADI2P46zIl7XNuuZ3In6o5tu2d3bNv1mvxtnLjDNslJBYCMqACQERUAMqICQEZUAMiICgAZUQEgIyoAZEQFgIyoAJARFQAy67a/tu0yTaruffJztu2DVd9V2bZbNfm+Kif+nk+85oqTCgAZUQEgIyoAZEQFgIyoAJARFQAyogJARlQAyIgKABlRASAjKgBkXtd1JR+0bX9m0on7PNuu+cRdr0r1Lk58hif+Dp/6G6s4qQCQERUAMqICQEZUAMiICgAZUQEgIyoAZEQFgIyoAJARFQAyogJAJtv+AgAnFQAyogJARlQAyIgKABlRASAjKgBkRAWAjKgAkBEVADKiAkBGVADIiAoAGVEBICMqAGREBYCMqACQERUAMqICQEZUAMiICgAZUQEgIyoAZEQFgMx/AMqPcrAFRQCjAAAAAElFTkSuQmCC" alt="QR code that opens the Marez Multi Media intake form">
     <br>
-    <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeOAdM6MZhMHNXhHZQjOqCLU1k2JBhc8jB7Tk7GGrwKldN_pQ/viewform">On a computer? Open the form</a>
+    <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeOAdM6MZhMHNXhHZQjOqCLU1k2JBhc8jB7Tk7GGrwKldN_pQ/viewform">On a computer? Open the free builder</a>
     <p style="margin-top:12px;font-size:14px">Someone sent you? Type their code in the form&rsquo;s Referral code box so they get credit.</p>
   </div>
 
-  <h3 class="sec">Career Launch — we apply to jobs for you</h3>
+
+  <h3 class="sec">How it works — three simple steps</h3>
+  <div class="steps">
+    <div class="step">
+      <span class="num">STEP 1</span>
+      <h4>Free Resume Builder</h4>
+      <div class="price">$0</div>
+      <p>Answer the short form. We build you a finished ATS resume — Word + PDF — and send it back. Free means free.</p>
+      <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeOAdM6MZhMHNXhHZQjOqCLU1k2JBhc8jB7Tk7GGrwKldN_pQ/viewform">Start free</a>
+    </div>
+    <div class="step">
+      <span class="num">STEP 2</span>
+      <h4>Trial Package</h4>
+      <div class="price">$10</div>
+      <p>See us work before you commit: 5 real applications submitted for you, screenshot proof of every one, and a live tracker. Your $10 comes off any package if you upgrade within 14 days.</p>
+      <a class="cta" href="https://buy.stripe.com/bJe7sL7VMgrt2pybBf4Rq0c">Start the $10 trial</a>
+    </div>
+    <div class="step">
+      <span class="num">STEP 3</span>
+      <h4>Career Launch</h4>
+      <div class="price">$99+</div>
+      <p>The full run: 20, 40, or 80 applications with the same proof and tracker. First package 50% off with code FIRST50.</p>
+      <a class="cta ghost" href="#packages">See the packages</a>
+    </div>
+  </div>
+
+  <h3 class="sec" id="packages">Career Launch — we apply to jobs for you</h3>
   <p class="sub">You send your resume and tell us your pay floor. We find the postings, submit the applications, and send you screenshot proof of every single one.</p>
   <div class="grid">
     <div class="card">
@@ -103,7 +137,7 @@
   <div class="note"><strong>Our guarantee:</strong> your full count, delivered — or we keep working free until it is. Get hired before your package runs out? We refund the unused applications. Honest limit: we sell applications and proof, never a promised job.</div>
 
   <h3 class="sec">Resume writing</h3>
-  <p class="sub">Written from scratch, reviewed line by line, built to get past the resume filters (ATS) and still sound like you.</p>
+  <p class="sub">The free builder covers your resume. These add the extras — a cover letter and a LinkedIn refresh — written from scratch and reviewed line by line.</p>
   <div class="grid">
     <div class="card"><h4>Basic</h4><div class="price">$50</div><ul><li>ATS resume, Word + PDF</li><li>Delivered in 1 day</li></ul></div>
     <div class="card"><h4>Standard</h4><div class="price">$80</div><ul><li>Everything in Basic</li><li>Cover letter included</li></ul></div>
